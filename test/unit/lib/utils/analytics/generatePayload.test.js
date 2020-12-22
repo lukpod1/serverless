@@ -116,7 +116,7 @@ describe('lib/utils/analytics/generatePayload', () => {
       isAutoUpdateEnabled: false,
       isTabAutocompletionInstalled: false,
       npmDependencies: [],
-      triggeredDeprecations: [],
+      triggeredDeprecations: ['LAMBDA_HASHING_VERSION_20201221'],
       installationType: 'local:fallback',
       isDashboardEnabled: false,
       versions,
